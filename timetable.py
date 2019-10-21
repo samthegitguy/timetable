@@ -15,7 +15,8 @@ def checkanswer(x ,y,thescore):
 	print ("That's incorrect")
     return thescore
 def menu ():
-    print ("Your current score is " + str(score) + ". Let's try and beat it!")
+    if score != 0:
+        print ("Your current score is " + str(score) + ". Let's try and beat it!")
     print (" Please note that you must not enter numbers via number pad, or letters.")
     timetable = input ("What table will you practice? ")
     return timetable
