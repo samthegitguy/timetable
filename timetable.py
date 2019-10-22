@@ -6,28 +6,38 @@
 #these are module importations.
 import sys, random
 #Function Definitions
-def checkanswer(x ,y,thescore):
-    playersays = input("What is " + str(x) + " times " + str(y) + " ? ")
-    if x * y == playersays:
-        print ("Correct!")
-        thescore += 1
-    else:
-	print ("That's incorrect")
-    return thescore
-def menu ():
-    if score != 0:
-        print ("Your current score is " + str(score) + ". Let's try and beat it!")
-    print (" Please note that you must not enter numbers via number pad, or letters.")
-    timetable = input ("What table will you practice? ")
-    return timetable
+repeat = True
+while repeat:
+
+    def checkanswer(x ,y,thescore):
+        playersays = input("What is " + str(x) + " times " + str(y) + " ? ")
+        if x * y == playersays:
+            print ("Correct!")
+            thescore += 1
+        else:
+	    print ("That's incorrect")
+        return thescore
+    def menu ():
+        if score != 0:
+            print ("Your current score is " + str(score) + ". Let's try and beat it!")
+        print (" Please note that you must not enter numbers via number pad, or letters. \n ^c to quit at any time.")
+        timetable = input ("What table will you practice? ")
+        return timetable
 #here is main program
-i = 1
-score = 0
-table = menu ()
+    i = 1
+    score = 0
+    table = menu ()
 #main question loop
-for i in range (1,10): 
-    score = checkanswer (i, table, score)
-    i = i + 1
-print("Your Score Is..." + str(score) + " ! ")
+    for i in range (1,10): 
+        score = checkanswer (i, table, score)
+        i = i + 1
+    print("Your Score Is..." + str(score) + " ! ")
+    theinput = input("Would you like to try again? (Y/N): ")
+    theinput = lower.theinput
+    if theinput == "y":
+        repeat = True
+    elif theinput == "n":
+        repeat = False
+
 
 
