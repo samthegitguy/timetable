@@ -32,8 +32,8 @@ while repeat:
         score = checkanswer (i, table, score)
         i = i + 1
     print("Your Score Is..." + str(score) + " ! ")
-    theinput = input("Would you like to try again? (Y/N): ")
-    theinput = lower.theinput
+    theinput = raw_input("Would you like to try again? (Y/N): ")
+    theinput = theinput.lower()
     if theinput == "y":
         repeat = True
     elif theinput == "n":
