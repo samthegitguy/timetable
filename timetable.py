@@ -15,8 +15,8 @@ while repeat:
             print ("Correct!")
             thescore += 1
         else:
-	    print ("That's incorrect")
-        return thescore
+            print ("That's incorrect")
+            return thescore
     def menu ():
         if score != 0:
             print ("Your current score is " + str(score) + ". Let's try and beat it!")
