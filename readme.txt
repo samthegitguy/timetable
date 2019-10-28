@@ -14,14 +14,14 @@ Required Programs.
        open the required py file via IDLE and press F5.
 2. IDLE
     Installation on windows/linux
-        same as above.
+        same as above. Idle is not available on linux, use `nano timetable.py` instead.
  
 
 
 Abstract 
 
 Timetables is a educational program designed to test your knowledge of 1 - 10 timetables. Timetables to 12 will soon be added.
-We thanks you for your patience.
+We thank you for your patience.
 
 
 Instructions
