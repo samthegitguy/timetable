@@ -8,7 +8,10 @@ import sys, random
 #Function Definitions
 repeat = True
 while repeat:
-
+    #three vars are taken in. 
+    #x to be the first number to check
+    #Y to be the second number
+    #and thescore to manipulate the score as functions cannot manipulate global variables. See github.com/samthegitguy/timetable/issues/1 for more information.
     def checkanswer(x ,y,thescore):
         playersays = input("What is " + str(x) + " times " + str(y) + " ? ")
         if x * y == playersays:
@@ -32,13 +35,20 @@ while repeat:
         score = checkanswer (i, table, score)
         i = i + 1
     print("Your Score Is..." + str(score) + " ! ")
-    theinput = raw_input("Would you like to try again? (Y/N): ")
-    theinput = theinput.lower()
-    if theinput == "y":
-        repeat = True
-    elif theinput == "n":
-        repeat = False
-print ("Thanks for playing! Try again soon.")
 
+
+        theinput = raw_input("Would you like to try again? (Y/N): ")
+        theinput = theinput.lower()
+        if theinput == "y":
+            repeat = True
+            repeatcheck = False
+        elif theinput == "n":
+            repeat = False
+            repeatcheck = False
+        else:
+            #the variable repeatcheck is a boolean value to tell whether the answer is Y or N. See github.com/samthegitguy/timetable/issues/5 for more details.
+            print("You haven't chosen Y or N. Please choose again.")
+            repeatcheck = True
+exit()
 
 
