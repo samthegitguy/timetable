@@ -18,12 +18,12 @@ while repeat:
             print ("Correct!")
             thescore += 1
         else:
-	    print ("That's incorrect")
-        return thescore
+            print ("That's incorrect")
+            return thescore
     def menu ():
         if score != 0:
             print ("Your current score is " + str(score) + ". Let's try and beat it!")
-        print (" Please note that you must not enter numbers via number pad, or letters. \n ^c to quit at any time.")
+        print (" Please note that you must not enter numbers via number pad, or letters.\n^c to quit at any time.")
         timetable = input ("What table will you practice? ")
         return timetable
 #here is main program
@@ -35,10 +35,7 @@ while repeat:
         score = checkanswer (i, table, score)
         i = i + 1
     print("Your Score Is..." + str(score) + " ! ")
-    #the variable "theinput" is used to manipulate the result of the input and to store it.
-    #see line 49 for more info on repeatcheck. Do not confuse repeat and repeatcheck. repeatcheck is for asking to repeat again and repeat is for actually repeating.
-    repeatcheck = True
-    while repeatcheck == True:
+
 
         theinput = raw_input("Would you like to try again? (Y/N): ")
         theinput = theinput.lower()
