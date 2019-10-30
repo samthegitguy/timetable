@@ -19,7 +19,7 @@ while repeat:
             thescore += 1
         else:
             print ("That's incorrect")
-            return thescore
+        return thescore
     def menu ():
         if score != 0:
             print ("Your current score is " + str(score) + ". Let's try and beat it!")
@@ -35,13 +35,13 @@ while repeat:
         score = checkanswer (i, table, score)
         i = i + 1
     print("Your Score Is..." + str(score) + " ! ")
-
-
+    repeatcheck = True
+    while repeatcheck == True:
         theinput = raw_input("Would you like to try again? (Y/N): ")
         theinput = theinput.lower()
         if theinput == "y":
             repeat = True
-            repeatcheck = False
+        repeatcheck = False
         elif theinput == "n":
             repeat = False
             repeatcheck = False
