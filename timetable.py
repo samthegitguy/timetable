@@ -41,7 +41,7 @@ while repeat:
         theinput = theinput.lower()
         if theinput == "y":
             repeat = True
-        repeatcheck = False
+            repeatcheck = False
         elif theinput == "n":
             repeat = False
             repeatcheck = False
