@@ -31,7 +31,7 @@ while repeat:
     score = 0
     table = menu ()
 #main question loop
-    for i in range (1,10): 
+    for i in range (1,13): 
         score = checkanswer (i, table, score)
         i = i + 1
     print("Your Score Is..." + str(score) + " ! ")
