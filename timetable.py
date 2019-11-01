@@ -25,7 +25,7 @@ while repeat:
     def menu ():
         if score != 0:
             print ("Your current score is " + str(score) + ". Let's try and beat it!")
-        print ("Please note that you must not enter numbers via number pad, or letters.lafjdkljfal\n^c to quit at any time.")
+        print ("Please note that you must not enter numbers via number pad, or letters.\n^c to quit at any time.")
         timetable = input ("What table will you practice? ")
         return timetable
 #here is setup program
