@@ -5,7 +5,7 @@
 #/ failure, and adds score accordingly.
 #Detailed description can be found in readme.txt
 #these are module importations.
-import sys, random
+import sys, random,time
 #Function Definitions
 repeat = True
 while repeat:
