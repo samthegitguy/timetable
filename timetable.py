@@ -52,6 +52,9 @@ while repeat:
             #the variable repeatcheck is a boolean value to tell whether the answer is Y or N. See github.com/samthegitguy/timetable/issues/5 for more details.
             print("You haven't chosen Y or N. Please choose again.")
             repeatcheck = True
+print("Thanks for playing. Come again soon!")
+time.sleep(2)
 exit()
+
 
 
