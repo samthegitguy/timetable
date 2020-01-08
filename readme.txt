@@ -20,11 +20,10 @@ Required Programs.
 
 Abstract 
 
-Timetables is a educational program designed to test your knowledge of 1 - 10 timetables. Timetables to 12 will soon be added.
-We thank you for your patience.
+Timetables is a educational program designed to test your knowledge of 1 - 12 timetables. 
 
 
 Instructions
 
 Enter the table you would like to use, and then the program will quiz you.
-Only quizzes one timetable at a time.
+Only quizzes one timetable at a time rather than random trivia but you can type Y at the end of a practice to retry.
