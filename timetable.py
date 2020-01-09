@@ -1,5 +1,4 @@
 ##################################################################################################################################
-#This program was developed by Sam
 #It is used to learn timetables. it asks you to choose a timetable to quiz you on, and it asks all the relevant questions, and reports on your success,
 #/ failure, and adds score accordingly.
 #Detailed description can be found in readme.txt
