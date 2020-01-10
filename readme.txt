@@ -1,7 +1,5 @@
 timetable.py
 
-IMPORTANT NOTICE
-DO NOT PURCHASE THIS PROGRAM. IT CAN BE ACCESSED FOR FREE AT https://github.com/samthegitguy/timetable
 
 Required Programs.
 1. Python Shell
