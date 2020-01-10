@@ -1,7 +1,5 @@
 timetable.py
 
-IMPORTANT NOTICE
-DO NOT PURCHASE THIS PROGRAM. IT CAN BE ACCESSED AS FREEWARE AT https://github.com/samthegitguy/timetable
 
 Required Programs.
 1. Python Shell
@@ -23,7 +21,7 @@ Abstract
 Timetables is a educational program designed to test your knowledge of 1 - 10 timetables. Timetables to 12 will soon be added.
 We thank you for your patience.
 
-YOU ARE USING THE BLITZ COPY OF THIS PROGRAM. FOR THE STANDARD PROGRAM, DOWNLOAD THE MASTER BRANCH.
+YOU ARE USING THE BLITZ COPY OF THIS PROGRAM. FOR THE STANDARD PROGRAM, DOWNLOAD THE MASTER BRANCH FROM https://github.com/samthegitguy/timestables.
 Instructions
 
 Enter the table you would like to use, and then the program will quiz you.
