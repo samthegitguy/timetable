@@ -20,7 +20,7 @@ Abstract
 
 Timetables is a educational program designed to test your knowledge of 1 - 12 timetables. 
 
-
+YOU ARE USING THE BLITZ COPY OF THIS PROGRAM. FOR THE STANDARD PROGRAM, DOWNLOAD THE MASTER BRANCH FROM https://github.com/samthegitguy/timestables.
 Instructions
 
 Enter the table you would like to use, and then the program will quiz you.
